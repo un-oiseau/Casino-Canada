@@ -1,0 +1,341 @@
+@media screen and (min-width: 992px) {
+    header nav {
+        display: block;
+    }
+    .custom-logo-link {
+        max-width: auto;
+        float: left;
+    }
+    .best-list .col-4 {
+        position: relative;
+    }
+    .best-list .game-desc {
+        margin-bottom: 0;
+    }
+    .best-list .col-4::before {
+        content: url('../images/cup-1.svg');
+        position: absolute;
+        top: -65px;
+        left: calc(50% - 27px);
+    }
+    .best-list .col-4:nth-child(2)::before {
+        content: url('../images/cup-2.svg');
+    }
+    .best-list .col-4:nth-child(3)::before {
+        content: url('../images/cup-3.svg');
+    }
+    .best-list .col-4:nth-child(1) {
+        order: 2;
+        margin-top: 80px;
+    }
+    .best-list .col-4:nth-child(2) {
+        order: 1;
+        margin-top: 100px;
+    }
+    .best-list .col-4:nth-child(3) {
+        order: 3;
+        margin-top: 120px;
+    }
+    .top-item .game-logo {
+        border-right: 1px solid #EDF2F4;
+    }
+    .top-item .game-rate {
+        border-right: 1px solid #EDF2F4;
+    }
+    .top-item .col-3:nth-child(2),
+    .top-item .col-3:nth-child(3) {
+        border-right: 1px solid #EDF2F4;
+    }
+    .top-item .col-3:not(:nth-child(5)) {
+        border-bottom: 1px solid #EDF2F4;
+    }
+    .fairness {
+        width: 55%;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .game-item .col-3 {
+        padding-right: 0;
+    }
+    .game-main::before {
+        content: "";
+        position: absolute;
+        right: -15px;
+        top: 15px;
+        width: 1px;
+        height: calc(100% - 30px);
+        background: rgba(40, 40, 40, 0.25);
+    }
+    .col-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+    .col-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+    .col-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .col-30 {
+        -ms-flex: 0 0 23%;
+        flex: 0 0 23%;
+        max-width: 23%;
+    }
+    .col-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .col-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+    .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+    .col-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-70 {
+        -ms-flex: 0 0 77%;
+        flex: 0 0 77%;
+        max-width: 77%;
+    }
+    .col-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+    .col-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+    .col-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .align-bottom .cev-row {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .ratings-row .col-3 {
+        -ms-flex: 0 0 28%;
+        flex: 0 0 28%;
+        max-width: 28%;
+    }
+    .ratings-row .col-3:nth-child(2) {
+        margin: 0 8%;
+    }
+    .cev-box p:last-child,
+    blockquote p:last-child {
+        margin-bottom: 0;
+    }
+    .cev-box ul > li:last-child,
+    .cev-box ol > li:last-child {
+        margin-bottom: 0;
+    }
+    .footer-logos {
+        width: calc(100% - 350px);
+    }
+}
+@media (max-width: 1280px) {
+    .tce-container {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media screen and (max-width: 991px) {
+    header nav ul,
+    header .tce-container,
+    .footer-nav.flex-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    header nav {
+        display: none;
+    }
+    header nav li {
+        margin-right: 0;
+    }
+    header nav ul li,
+    header nav ul li a,
+    .footer-nav li,
+    .footer-nav li a {
+        width: 100%;
+    }
+    .menu-item-has-children > span {
+        right: 0;
+    }
+    header nav a {
+        padding: .75rem 0;
+    }
+    main .summary-box ul li::before {
+        display: none;
+    }
+    .recommended-list .game-logo {
+        height: 160px;
+    }
+    .menu-item-has-children::before {
+        right: 0;
+        top: .5rem;
+    }
+    .green-bordered-box,
+    .orange-border-box {
+        text-align: center;
+    }
+    .page-notfound::before,
+    .page-notfound::after {
+        display: none;
+    }
+    .sub-menu {
+        position: static;
+        padding-left: 1rem;
+        border-top: 0;
+        background: transparent;
+    }
+    .summary-box ul {
+        column-count: 1;
+    }
+    .footer-nav li {
+        margin-bottom: .7rem;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    blockquote {
+        width: 100%;
+        padding: 80px 30px 30px;
+    }
+    .bordered {
+        padding: 15px;
+    }
+    .fairness p, .title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    h1, .h1 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    h2, .h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    h3, .h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    h4, .h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    h5, .h5 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    h6, .h6 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .game-item {
+        text-align: center;
+    }
+    .brand-slot-page table .text-right {
+        text-align: right;
+    }
+    .game-main, .game-options {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .game-logo {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    .game-title {
+        margin: 25px auto 15px!important;
+    }
+    .f-right {
+        float: none;
+    }
+    .counter {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+    }
+    main h2, main h3, main h4,
+    .brand-general h3 {
+        margin-top: .5rem;
+        margin-bottom: .75rem;
+    }
+    .mt-3 {
+        margin-top: 1.5rem;
+    }
+    .home .wp-block-table thead {
+        padding: 0 15px;
+    }
+    .home .wp-block-table table tr td:first-child {
+        padding-right: 15px;
+    }
+    .home h1, .home h2 {
+        margin-top: 1rem;
+    }
+    .casino-game-item {
+        margin-bottom: 30px;
+    }
+    .exp-horizontal .flex-box {
+        text-align: center;
+    }
+    .brand-slot-page .stars {
+        margin-top: 15px;
+    }
+    .flag-top::after,
+    .flag-top::before {
+        left: 20px;
+    }
+    .table_top5_box .table_top5 td[data-type="logo"] {
+        max-width: inherit;
+    }
+}
+@media screen and (max-width: 767px) {
+    .searchform input {
+        width: 100%;
+    }
+    .notfound-box p {
+        font-size: 140px;
+    }
+    .flex-box:not(.footer-logo) {
+        display: block;
+    }
+    footer .flex-box img {
+        margin-right: 15px;
+    }
+}
